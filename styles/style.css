@@ -7,8 +7,13 @@
 body {
   background-color: rgb(83, 85, 251);
 }
-body main section-1 .logo-div {
-  margin: 0 15%;
+body main section-1 {
+  margin: 4% 17% 5% 17%;
   background-color: white;
   border-radius: 10px;
+  display: flex;
+}
+body main section-1 .logo-div .dog {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }/*# sourceMappingURL=style.css.map */

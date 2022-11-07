@@ -16,13 +16,18 @@ body {
     main {
 
         section-1 {
-
-            .logo-div {
-                margin: 0 15%;
+            margin: 4% 17% 5% 17%;
                 background-color: white;
                 border-radius: 10px;
+                display: flex;
+
+            .logo-div {
+                
+               
 
                 .dog {
+                    border-top-left-radius: 10px;
+                    border-bottom-left-radius: 10px;
 
                 }
 
