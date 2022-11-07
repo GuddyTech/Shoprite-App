@@ -1,4 +1,4 @@
-
+$bodyBgColor:  rgb(83, 85, 251);
 
 
 *{
@@ -10,12 +10,21 @@
 
 
 body {
+    background-color: $bodyBgColor;
+
 
     main {
 
         section-1 {
 
             .logo-div {
+                margin: 0 15%;
+                background-color: white;
+                border-radius: 10px;
+
+                .dog {
+
+                }
 
             }
 
