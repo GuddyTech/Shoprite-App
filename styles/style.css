@@ -12,23 +12,36 @@ body main section-1 {
   background-color: white;
   border-radius: 10px;
   display: flex;
+  justify-content: space-between;
 }
 body main section-1 .logo-div .dog {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
+  height: 100%;
+  width: 100%;
+}
+body main section-1 .start-div {
+  margin-right: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 body main section-1 .start-div .shoprite-name {
   font-size: 350%;
   font-family: "Xanh Mono", monospace;
   width: 100%;
-  margin: 20% 16%;
+  flex-wrap: wrap;
+}
+body main section-1 .start-div .p-dont {
+  width: 80%;
+  margin-top: 35%;
+  margin-left: 10%;
 }
 body main section-1 .start-div .start-btn {
   width: 100%;
   height: 10%;
   background-color: rgb(83, 85, 251);
   color: white;
-  margin: 20% 16%;
+  margin-top: 13%;
   border-radius: 50px;
   transition: all 0.2s ease-in-out;
 }
