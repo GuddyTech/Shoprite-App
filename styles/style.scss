@@ -1,4 +1,5 @@
 $bodyBgColor:  rgb(83, 85, 251);
+$startBtnHoverBgColor:  rgb(54, 58, 253);
 
 
 *{
@@ -38,17 +39,27 @@ body {
                 
 
                 .shoprite-name {
-                    border: 1px solid black;
+                    // border: 1px solid black;
                     font-size: 350%;
                     font-family: 'Xanh Mono', monospace;
                     width: 100%;
-                    margin: 10% 20%;
+                    margin: 20% 16%;
                     // font-weight: 10800;
 
                 }
 
                 .start-btn {
-                    
+                    width: 100%;
+                    height: 10%;
+                    background-color: $bodyBgColor;
+                    color: white;
+                    margin: 20% 16%;
+                    border-radius: 50px;
+                    transition: all 0.2s ease-in-out;
+
+                    &:hover {
+                        background-color: $startBtnHoverBgColor;
+                    }
 
                 }
 

@@ -18,9 +18,20 @@ body main section-1 .logo-div .dog {
   border-bottom-left-radius: 10px;
 }
 body main section-1 .start-div .shoprite-name {
-  border: 1px solid black;
   font-size: 350%;
   font-family: "Xanh Mono", monospace;
   width: 100%;
-  margin: 10% 20%;
+  margin: 20% 16%;
+}
+body main section-1 .start-div .start-btn {
+  width: 100%;
+  height: 10%;
+  background-color: rgb(83, 85, 251);
+  color: white;
+  margin: 20% 16%;
+  border-radius: 50px;
+  transition: all 0.2s ease-in-out;
+}
+body main section-1 .start-div .start-btn:hover {
+  background-color: rgb(54, 58, 253);
 }/*# sourceMappingURL=style.css.map */
