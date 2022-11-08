@@ -30,6 +30,7 @@ body main section-1 .start-div {
 }
 body main section-1 .start-div .shoprite-logo {
   justify-items: center;
+  cursor: pointer;
 }
 body main section-1 .start-div .discount {
   font-size: 100%;
