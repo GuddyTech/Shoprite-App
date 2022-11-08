@@ -2,6 +2,8 @@ $bodyBgColor:  rgb(55, 55, 61);
 $startBtnHoverBgColor:   rgb(43, 43, 46);
 $pureWhiteColor: white;
 $boxShadowColor: 1px 1px 10px 4px rgb(167, 188, 244);
+$pureRed: red;
+$pureBlack: black;
 
 
 *{
@@ -86,28 +88,32 @@ body {
                 .first {
                     width: 60%;
                     height: 5.5%;
-                    border: 1px solid black;
-                    border-radius: 50px;
+                    border: 1px solid $pureBlack;
+                    border-radius: 5px;
                     padding: 0 3%;
+                    margin-left: 3%;
+                    caret-color: $pureRed;
                     
                 }
 
                 .last {
                     width: 60%;
                     height: 5.5%;
-                    border: 1px solid black;
-                    border-radius: 50px;
-                    margin-left: 1%;
+                    border: 1px solid $pureBlack;
+                    border-radius: 5px;
+                    margin-left: 4%;
                     padding: 0 3%;
+                    caret-color: $pureRed;
                 }
 
                 .age {
                     width: 60%;
                     height: 5.5%;
-                    border: 1px solid black;
-                    border-radius: 50px;
-                    margin-left: 18%;
+                    border: 1px solid $pureBlack;
+                    border-radius: 5px;
+                    margin-left: 21%;
                     padding: 0 3%;
+                    caret-color: $pureRed;
                 }
 
 

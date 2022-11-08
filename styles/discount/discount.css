@@ -41,24 +41,28 @@ body main section-1 .start-div .first {
   width: 60%;
   height: 5.5%;
   border: 1px solid black;
-  border-radius: 50px;
+  border-radius: 5px;
   padding: 0 3%;
+  margin-left: 3%;
+  caret-color: red;
 }
 body main section-1 .start-div .last {
   width: 60%;
   height: 5.5%;
   border: 1px solid black;
-  border-radius: 50px;
-  margin-left: 1%;
+  border-radius: 5px;
+  margin-left: 4%;
   padding: 0 3%;
+  caret-color: red;
 }
 body main section-1 .start-div .age {
   width: 60%;
   height: 5.5%;
   border: 1px solid black;
-  border-radius: 50px;
-  margin-left: 18%;
+  border-radius: 5px;
+  margin-left: 21%;
   padding: 0 3%;
+  caret-color: red;
 }
 body main section-1 .start-div .start-btn {
   width: 100%;
