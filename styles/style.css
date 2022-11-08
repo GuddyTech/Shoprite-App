@@ -6,7 +6,6 @@
 
 body {
   background-color: rgb(83, 85, 251);
-  font-family: nunito, sans-serif;
 }
 body main section-1 {
   margin: 4% 17% 5% 17%;
@@ -17,4 +16,11 @@ body main section-1 {
 body main section-1 .logo-div .dog {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
+}
+body main section-1 .start-div .shoprite-name {
+  border: 1px solid black;
+  font-size: 350%;
+  font-family: "Xanh Mono", monospace;
+  width: 100%;
+  margin: 10% 20%;
 }/*# sourceMappingURL=style.css.map */
