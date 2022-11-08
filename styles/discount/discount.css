@@ -39,7 +39,18 @@ body main section-1 .start-div .discount {
 }
 body main section-1 .start-div .first {
   width: 60%;
-  height: 8%;
+  height: 5%;
+  border: 1px solid black;
+}
+body main section-1 .start-div .last {
+  width: 60%;
+  height: 5%;
+  border: 1px solid black;
+}
+body main section-1 .start-div .age {
+  width: 60%;
+  height: 5%;
+  border: 1px solid black;
 }
 body main section-1 .start-div .start-btn {
   width: 100%;
