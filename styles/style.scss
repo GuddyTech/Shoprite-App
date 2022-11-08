@@ -40,7 +40,7 @@ body {
 
             .start-div {
                 // border: 1px solid black;
-                margin-right: 5%;
+                margin-right: 7%;
                 margin-top: 5%;
                 margin-bottom: 5%;
                 
@@ -53,6 +53,13 @@ body {
                     // margin: 20% 16%;
                     flex-wrap: wrap;
                     // font-weight: 10800;
+
+                    .discount {
+                        // border: 1px solid black;
+                        font-size: 50%;
+                        width: 100%;
+                        margin-left: 25%;
+                    }
 
                 }
 

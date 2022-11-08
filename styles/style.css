@@ -21,7 +21,7 @@ body main section-1 .logo-div .dog {
   width: 100%;
 }
 body main section-1 .start-div {
-  margin-right: 5%;
+  margin-right: 7%;
   margin-top: 5%;
   margin-bottom: 5%;
 }
@@ -30,6 +30,11 @@ body main section-1 .start-div .shoprite-name {
   font-family: "Xanh Mono", monospace;
   width: 100%;
   flex-wrap: wrap;
+}
+body main section-1 .start-div .shoprite-name .discount {
+  font-size: 50%;
+  width: 100%;
+  margin-left: 25%;
 }
 body main section-1 .start-div .p-dont {
   width: 80%;
