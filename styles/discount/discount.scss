@@ -77,63 +77,72 @@ body {
 
                 }
 
-                // .p-dont {
-                //     // border: 1px solid black;
-                //     width: 100%;
-                //     margin-top: 35%;
-                //     margin-left: 0%;
-                    
-                // }
+                form {
 
-                .first {
-                    width: 60%;
-                    height: 5.5%;
-                    border: 1px solid $pureBlack;
-                    border-radius: 5px;
-                    padding: 0 3%;
-                    margin-left: 3%;
-                    caret-color: $pureRed;
-                    
+                    .first {
+                        width: 60%;
+                        height: 5.5%;
+                        border: 1px solid $pureBlack;
+                        border-radius: 5px;
+                        padding: 0 3%;
+                        margin-left: 3%;
+                        caret-color: $pureRed;
+                        
+                    }
+    
+                    .last {
+                        width: 60%;
+                        height: 5.5%;
+                        border: 1px solid $pureBlack;
+                        border-radius: 5px;
+                        margin-left: 4%;
+                        padding: 0 3%;
+                        caret-color: $pureRed;
+                    }
+    
+                    .age {
+                        width: 60%;
+                        height: 5.5%;
+                        border: 1px solid $pureBlack;
+                        border-radius: 5px;
+                        margin-left: 21%;
+                        padding: 0 3%;
+                        caret-color: $pureRed;
+                    }
+
                 }
 
-                .last {
-                    width: 60%;
-                    height: 5.5%;
-                    border: 1px solid $pureBlack;
-                    border-radius: 5px;
-                    margin-left: 4%;
-                    padding: 0 3%;
-                    caret-color: $pureRed;
-                }
-
-                .age {
-                    width: 60%;
-                    height: 5.5%;
-                    border: 1px solid $pureBlack;
-                    border-radius: 5px;
-                    margin-left: 21%;
-                    padding: 0 3%;
-                    caret-color: $pureRed;
-                }
+                
 
 
 
 
 
 
-                .start-btn {
+                .discount-btn {
                     width: 100%;
                     height: 12%;
                     background-color: $bodyBgColor;
                     color: $pureWhiteColor;
-                    margin-top: 13%;
+                    margin-top: 8%;
                     border-radius: 50px;
                     transition: all 0.2s ease-in-out;
+                    cursor: pointer;
 
                     &:hover {
                         background-color: $startBtnHoverBgColor;
                     }
 
+                }
+
+                .back-home {
+                    height: 4%;
+                    width: 2%;
+                    position: absolute;
+                    left: 78%;
+                    bottom: 21%;
+                    transform: rotate(90deg);
+                    cursor: pointer;
                 }
 
             }

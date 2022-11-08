@@ -49,6 +49,7 @@ body main section-1 .start-div .start-btn {
   color: white;
   margin-top: 13%;
   border-radius: 50px;
+  cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
 body main section-1 .start-div .start-btn:hover {
